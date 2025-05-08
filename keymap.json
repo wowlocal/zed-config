@@ -31,7 +31,9 @@
       "cmd-alt-[": "editor::MoveLineUp",
       "cmd-d": "editor::DuplicateLineDown",
       "alt-w": ["editor::SelectNext", { "replace_newest": false }],
-      "cmd-ctrl-k": "editor::DeleteLine"
+      "cmd-ctrl-k": "editor::DeleteLine",
+      "ctrl-alt-a": "editor::MoveToBeginning",
+      "ctrl-alt-e": "editor::MoveToEnd"
     }
   }
 ]
