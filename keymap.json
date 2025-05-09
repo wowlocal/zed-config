@@ -35,5 +35,11 @@
       "ctrl-alt-a": "editor::MoveToBeginning",
       "ctrl-alt-e": "editor::MoveToEnd"
     }
+  },
+  {
+    "context": "Editor && mode == full",
+    "bindings": {
+      "alt-z": "editor::ToggleSoftWrap"
+    }
   }
 ]
