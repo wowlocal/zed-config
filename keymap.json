@@ -19,7 +19,8 @@
       "cmd-alt-0": "workspace::ToggleRightDock",
       "cmd-0": "workspace::ToggleLeftDock",
       "ctrl-alt-p": "editor::LineUp",
-      "ctrl-alt-n": "editor::LineDown"
+      "ctrl-alt-n": "editor::LineDown",
+      "cmd-shift-g": "git_panel::ToggleFocus"
     }
   },
   {
@@ -40,6 +41,27 @@
     "context": "Editor && mode == full",
     "bindings": {
       "alt-z": "editor::ToggleSoftWrap"
+    }
+  },
+  {
+    "context": "AssistantPanel",
+    "use_key_equivalents": true,
+    "bindings": {
+      "cmd-shift-g": "git_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "ContextEditor > Editor",
+    "use_key_equivalents": true,
+    "bindings": {
+      "cmd-shift-g": "git_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Pane",
+    "use_key_equivalents": true,
+    "bindings": {
+      "cmd-shift-g": "git_panel::ToggleFocus"
     }
   }
 ]
