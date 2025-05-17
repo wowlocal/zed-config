@@ -8,12 +8,16 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "agent": {
+    "inline_assistant_model": {
+      "provider": "anthropic",
+      "model": "claude-3-7-sonnet-latest"
+    },
     "default_model": {
       "provider": "anthropic",
       "model": "claude-3-7-sonnet-latest"
     },
     "model_parameters": [],
-    "default_profile": "ask",
+    "default_profile": "write",
     "version": "2"
   },
   "features": {
