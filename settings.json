@@ -17,8 +17,7 @@
       "model": "claude-3-7-sonnet-latest"
     },
     "model_parameters": [],
-    "default_profile": "write",
-    "version": "2"
+    "default_profile": "write"
   },
   "features": {
     "edit_prediction_provider": "zed"

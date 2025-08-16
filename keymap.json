@@ -24,6 +24,13 @@
     }
   },
   {
+    "context": "!ContextEditor > Editor && mode == full",
+    "use_key_equivalents": true,
+    "bindings": {
+      "cmd-shift-j": "pane::RevealInProjectPanel"
+    }
+  },
+  {
     "context": "Editor",
     "bindings": {
       // "j k": ["workspace::SendKeystrokes", "escape"]
