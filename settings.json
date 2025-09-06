@@ -34,6 +34,13 @@
   "relative_line_numbers": true,
   "cursor_blink": false,
   "buffer_font_size": 14,
+  "autosave": "on_focus_change",
+  "minimap": {
+    "show": "always"
+  },
+  "scrollbar": {
+    "show": "never"
+  },
   "theme": {
     "mode": "system",
     "light": "macOS Classic Light",
