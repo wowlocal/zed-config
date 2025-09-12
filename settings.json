@@ -38,6 +38,7 @@
   "tabs": {
     "file_icons": true
   },
+  "use_system_window_tabs": true,
   "minimap": {
     "show": "always"
   },
